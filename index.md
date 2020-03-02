@@ -2,7 +2,7 @@
 layout: default
 intro: true
 ---
-# jekyll-theme-windows95
+# IshereTitle?
 ---
 Hey I'm Eunji!
 
