@@ -2,11 +2,16 @@
 layout: default
 intro: true
 ---
-# Welcome to my world!
+# Hello, there!
 ---
 Hey I'm Eunji.
-안녕 나는 은지에요!
+This page is for archiving my daily logs.
+Studying log will be posted everyday.
 
+Give me any comments!
+
+------------------------------------------------------
+Posting manual
 
 This is a [Jekyll](https://jekyllrb.com/) theme inpired on the oldschool Windows 95 UI.
 
