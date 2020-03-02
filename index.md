@@ -2,9 +2,10 @@
 layout: default
 intro: true
 ---
-# Eunji World
+# Welcome to my world!
 ---
-Hey I'm Eunji!
+Hey I'm Eunji.
+안녕 나는 은지에요!
 
 
 This is a [Jekyll](https://jekyllrb.com/) theme inpired on the oldschool Windows 95 UI.
