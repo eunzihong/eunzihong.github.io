@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Opening Eunji World"
-tags: Study
+tags: study
 ---
 
 Hi!  
