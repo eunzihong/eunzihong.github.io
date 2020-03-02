@@ -2,8 +2,8 @@ url: https://eunzihong.github.io
 baseurl: "" #/jekyll-theme-windows95
 
 # variables
-title: Eunji World
-description: Jekyll theme inpired on the Win95 UI
+title: "Eunji World"
+description: "Welcome to Eunji World"
 
 # File management
 include: [".htaccess"]
