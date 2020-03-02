@@ -4,6 +4,9 @@ intro: true
 ---
 # jekyll-theme-windows95
 ---
+Hey I'm Eunji!
+
+
 This is a [Jekyll](https://jekyllrb.com/) theme inpired on the oldschool Windows 95 UI.
 
 ## Usage
