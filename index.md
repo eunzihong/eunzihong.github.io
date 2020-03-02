@@ -2,7 +2,7 @@
 layout: default
 intro: true
 ---
-# IshereTitle?
+# Eunji World
 ---
 Hey I'm Eunji!
 
