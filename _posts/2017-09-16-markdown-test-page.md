@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Title"
-tags: profile
+tags: Profile
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
