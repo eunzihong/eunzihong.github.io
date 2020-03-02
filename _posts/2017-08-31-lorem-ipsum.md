@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lorem Ipsum"
-tags: society
+tags: study
 ---
 
 ## Lorem Ipsum
