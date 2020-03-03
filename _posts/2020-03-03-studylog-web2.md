@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web1 - HTML & Internet
+title: Web2 - HTTP
 ---
 
 Feb 28, 2020    WEB2 - HTTP 1  
