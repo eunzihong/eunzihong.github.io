@@ -12,5 +12,5 @@ permalink: /about/
 
 ### Contact me
 
-[eunjihong.3698@gmail.com](mailto:eunjihong.3698@gmail.com)
+[eunjihong.3698@gmail.com](mailto:eunjihong.3698@gmail.com)  
 [hong969@kaist.ac.kr](mailto:hong969@kaist.ac.kr)
