@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Étudiante en Corée
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+한국사람이에요
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[eunjihong.3698@gmail.com](mailto:eunjihong.3698@gmail.com)
+[hong969@kaist.ac.kr](mailto:hong969@kaist.ac.kr)
