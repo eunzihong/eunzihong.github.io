@@ -1,96 +1,21 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" | relative_url }}">
-	<link rel="stylesheet" type="text/css" href="{{ "/assets/css/syntax.css" | relative_url }}">			
-    {% if page.title or page.title == 'me' %}
-        <title>{{ page.title }}</title>
-    {% else %}
-        <title>{{ site.title }}</title>
-    {% endif %}
-	<link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
-	<link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" type="image/x-icon">
-	<link rel="icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" type="image/x-icon">
-</head>
+
+{% include head.html %}
+
 <body>
-	<div class="window" id="wrapper">
-		<div class="window_title">
-			<img src="{{ "/assets/img/mycomputer.png" | relative_url }}" />
-			{% if page.tag %}
-				<h1>{{ site.title }} - {{ page.tag }}</h1>
-			{% else %}
-				<h1>{{ site.title }}</h1>
-			{% endif %}
-		</div>
-		{% include topbar.html %}
-		<div class="tag_list">
-			<ul id="tag-list">
-				<li>
-					<a href="{{ site.baseurl }}/" ><img src="{{ "/assets/img/disk.png" | relative_url }}" />(C:)</a>
-					<ul>
-						{% assign tags = site.tags | sort %}
-						{% for tag in tags %}
-							<li><a href="{{ site.baseurl }}/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="{{ "/assets/img/folder.ico" | relative_url }}" />{{ tag[0] | replace:'-', ' ' }}</a></li>
-						{% endfor %}
-					</ul>
-					<a href="{{ site.baseurl }}/all" ><img src="{{ "/assets/img/briefcase.png" | relative_url }}" />All</a>					
-				</li>
-			</ul>
-		</div>
-		{% if page.intro %} <!-- If at root, rendering index.md -->
-			<div class="intro">
-				{{ content }}
-			</div>
-		{% else %}
-		<div class="post_list">
-			{% unless page.date %}
-				{% unless page.tag %}
-					<ul>
-						{% for post in site.posts %}
-							<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
-						{% endfor %}
-					</ul>
-				{% else %} <!-- If page is showing a tag -->
-					{{ content }}
-				{% endunless %}
-			{% else %} <!-- If page is showing a post -->
-				<ul>
-					{% for post in site.posts %}
-					<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
-					{% endfor %}
-				</ul>
-			{% endunless %}
-		</div>
-		{% endif %}
-		<div class="post_total">
-			{% if page.tag %}
-				<div class="left">{{ site.tags[page.tag] | size }} post(s)</div>
-			{% else %}
-				<div class="left">{{ site.posts | size }} post(s)</div>
-			{% endif %}
-			<div class="right">&nbsp;</div>
-		</div>
-	</div>
-	{% if page.title %}
-        <div class="window" id="content">
-			<div class="window_title">
-				<img src="{{ "/assets/img/file.png" | relative_url }}" />
-				<h1>{{  page.title  }}</h1>
-				<a href="{{ site.baseurl }}/"><div class="btn"><span class="fa fa-times"></span></div></a>
-				<div class="btn btn_max" id="maximize-btn"><span class="fa fa-window-maximize"></span></div>
-				<div class="btn" id="minimize-btn"><span class="fa fa-window-minimize"></span></div>
-			</div>
-			<ul class="topbar">
-				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
-			</ul>
-			<div class="post_content">
-        		{{ content }}
-			</div>
-		</div>
-    {% endif %}
-	<script src="{{ "/assets/js/window_buttons.js" | relative_url }}"></script>
+
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+  {% include google-analytics.html %}
+
 </body>
+
 </html>

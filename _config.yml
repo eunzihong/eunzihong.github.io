@@ -1,20 +1,24 @@
-url: https://eunzihong.github.io
-baseurl: "" #/jekyll-theme-windows95
+title:              "Eunji World"
+email:              "eunjihong.3698@gmail.com"
+description:        "Bienvenue mes amis!"
+author:             "Eunji HONG"
+baseurl:            ""
+url:                "https://eunzihong.github.io"
 
-# variables
-title: "Eunji World"
-description: "Welcome to Eunji World"
+# Social Profiles
+#twitter_username:   SBootstrap
+github_username:    eunzihong
+facebook_username:  Eunji Hong
+#linkedin_username:
 
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "jekyll-theme-windows95.gemspec"]
+# Add your google-analytics ID here to activate google analytics
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-# Sass
-sass:
-  style: :compressed
-  sass_dir: _sass
-
-# Markdown
-markdown: kramdown
-highlighter: rouge
-# excerpt_separator: "\n\n"
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
