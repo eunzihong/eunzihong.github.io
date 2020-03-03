@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github page 열기
+title: Github page open!
 ---
 
 깃허브 페이지를 열었다.  
