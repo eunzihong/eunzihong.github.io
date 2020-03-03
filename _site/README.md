@@ -1,3 +1,0 @@
-# eunzihong.github.io
-
-Hi
