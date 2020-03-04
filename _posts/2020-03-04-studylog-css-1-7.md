@@ -16,6 +16,7 @@ Mar 4, 2020     WEB2 - CSS 1-7
 생활코딩의 Web2 `CSS` 강의 중 동영상 1부터 7까지의 내용을 공부했다.
 강의 내용 실습 및 개념 정리용 `html` [페이지](https://eunzihong.github.io/Webtest/css.html)를 하나 만들고 시작했다.  
 <br>
+
 ### 1-3 `html` 페이지를 꾸미는 근본적인 방법으로써의 `css` 등장  
 `html`만으로는 표현할 수 없는 시각적 효과를 위해 `css`가 등장하였다.  
 `html` 자체에도 `<font>`라는 태그가 존재해서 글자 색을 바꾼다거나 할 수 있지만, 더 많은 디자인 요소를 html의 태그만으로 감당하기에는 무리가 있었다.  
@@ -88,3 +89,5 @@ Property와 Value라는 용어를 알고 있으니 구글 검색을 해보면 �
 [`html`만으로 만든 페이지](https://eunzihong.github.io/Webtest/http.html)랑 [`css`를 활용해 만든 페이지](https://eunzihong.github.io/Webtest/css.html)를 비교해보면 확실히 차이를 느낄 수 있다.
 
 내일은 `css`강좌를 마무리 해야지!! 너무 재밌다!
+<br>
+<br>
