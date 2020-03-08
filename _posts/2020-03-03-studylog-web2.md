@@ -5,7 +5,7 @@ title: Web2 - HTTP
 
 Feb 28, 2020    WEB2 - HTTP 1  
 Feb 29, 2020    WEB2 - HTTP 2-5  
-[HTTP 내용 정리](https://eunzihong.github.io/Webtest/http.html)
+[HTTP 내용 정리](https://eunzihong.github.io/html&css/http.html)
 
 ----
 

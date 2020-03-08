@@ -4,7 +4,7 @@ title: Web2 - CSS 1-7
 ---
 
 Mar 4, 2020     WEB2 - CSS 1-7  
-[CSS 내용 정리](https://eunzihong.github.io/Webtest/css.html)
+[CSS 내용 정리](https://eunzihong.github.io/html&css/css.html)
 
 ----
 
@@ -14,7 +14,7 @@ Mar 4, 2020     WEB2 - CSS 1-7
 그래서 일단 `CSS` 강좌를 들어보기로 했다.  
 <br>
 생활코딩의 Web2 `CSS` 강의 중 동영상 1부터 7까지의 내용을 공부했다.
-강의 내용 실습 및 개념 정리용 `html` [페이지](https://eunzihong.github.io/Webtest/css.html)를 하나 만들고 시작했다.  
+강의 내용 실습 및 개념 정리용 `html` [페이지](https://eunzihong.github.io/html&css/css.html)를 하나 만들고 시작했다.  
 <br>
 
 ### 1-3 `html` 페이지를 꾸미는 근본적인 방법으로써의 `css` 등장  
@@ -86,7 +86,7 @@ Property와 Value라는 용어를 알고 있으니 구글 검색을 해보면 �
 
 ----
 확실히 `css`를 적용한 페이지가 `html`만으로 만든 페이지와는 비교도 안 될만큼 깔끔하고 보기 좋다. 눈으로 바로바로 확인할 수 있어 재밌다!  
-[`html`만으로 만든 페이지](https://eunzihong.github.io/Webtest/http.html)랑 [`css`를 활용해 만든 페이지](https://eunzihong.github.io/Webtest/css.html)를 비교해보면 확실히 차이를 느낄 수 있다.
+[`html`만으로 만든 페이지](https://eunzihong.github.io/html&css/http.html)랑 [`css`를 활용해 만든 페이지](https://eunzihong.github.io/html&css/css.html)를 비교해보면 확실히 차이를 느낄 수 있다.
 
 내일은 `css`강좌를 마무리 해야지!! 너무 재밌다!
 <br>

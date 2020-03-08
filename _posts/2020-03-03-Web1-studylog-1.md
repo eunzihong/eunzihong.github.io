@@ -6,7 +6,7 @@ title: Web1 - HTML & Internet
 Feb 26, 2020    WEB1 - HTML & Internet 1-15  
 Feb 27, 2020    WEB1 - HTML & Internet 16-19.2  
 Feb 28, 2020    WEB1 - HTML & Internet 20-22 + 부록 끝!!  
-[강의 실습 코드 페이지](https://eunzihong.github.io/Webtest/HONG.html)
+[강의 실습 코드 페이지](https://eunzihong.github.io/html&css/HONG.html)
 
 ----
 
