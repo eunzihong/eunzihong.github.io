@@ -4,11 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Étudiante en Corée
+hi, i'm eunji!
 
-### More Information
-
-한국사람이에요
+<!-- ### More Information
+ -->
 
 ### Contact me
 
