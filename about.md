@@ -12,4 +12,4 @@ hi, i'm eunji!
 ### Contact me
 
 [eunjihong.3698@gmail.com](mailto:eunjihong.3698@gmail.com)  
-[hong969@kaist.ac.kr](mailto:hong969@kaist.ac.kr)
+[eunji.hong@kaist.ac.kr](mailto:eunji.hong@kaist.ac.kr)
